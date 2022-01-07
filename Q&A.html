@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Q&A</title>
+    <style>
+ * {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #fff;
+}
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+h1 {
+   margin: 0; padding: 0;
+   font-size: 30px;
+}
+a {	
+   text-decoration: none;
+   color: #615e5e;
+
+}
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+small{
+  background:rgb(68, 67, 67);
+  color: rgb(248, 241, 241);;
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+#page_top{/*top page*/
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0aa';
+  font-size: 60px;
+  color: #afadad;
+}
+
+#form2{/*サーチ*/
+position:relative;
+max-width:300px;	
+margin-bottom:auto;
+margin-left: 10%;
+margin-top: 2%
+
+
+}
+#sbox2{
+height:30px;
+padding:0 10px; 
+position:absolute; 
+left:0;
+top:0; 
+border-radius:2px;
+outline:0;
+background:#eee;	
+}
+#sbtn2{
+height:35px;
+position:absolute; 
+left:190px;/*アイコン左右の位置調整*/
+top:0;
+background:none;
+color:rgb(131, 127, 127);
+border:none;
+font-size:20px;/*アイコンサイズ*/
+}
+
+/*シンプル角丸（影）枠 2*/
+.kakomi {
+ margin: 2em auto;
+ padding: 1em;
+ width: 90%;
+ color: #666666; /*文字色*/
+ border: 2px solid #8b643c; /*線の太さ・色*/
+ background-color: #fff; /*背景色*/
+ box-shadow: -2px 5px 5px #e8d3c7; /*影*/
+ border-radius: 20px; /*角の丸み*/
+}
+
+      </style>
+<body>
+  <header>
+    <h1>
+      <a href="期末報告.html"><font size="7" face="serif">服利社</a></font>
+    </h1>
+    <nav class="pc-nav">
+        <ul>
+            <li><a href="期末報告.html">首頁</a></li>
+            <li><a href="商品.html">商品</a></li>
+            <li><a href="Q&A.html">Q&A</a></li>
+            <li><a href="關於我們.html">關於我們</a></li>
+            <li><a href="注冊.html">加入會員</a></li>
+            <li><a href="登入.html">登入</a></li>
+            <li><a href="期末報告.html">登出</a></li>
+        </ul>
+    </nav>
+    <form id="form2">
+      <input id="sbox2"  id="s" name="s" type="text" placeholder="Search"/>
+      <button type="submit" id="sbtn2"><i class="fas fa-search"></i></button>
+      </form>
+</header>
+
+<p style="padding-top: 120px;"></p>
+<p style="text-align: center;">
+<font size ="10"color="black"face="serif"> 常見問題</font></p>
+<div class="kakomi"><p style="text-align: center;">
+  <font size="5"color="black"> Q.可以透過甚麼方式付款？</font></p>
+ 
+
+  <p style="text-align: center;">
+    &nbsp;&nbsp;&nbsp;&nbsp;A.目前提供以下三種付款方式<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金融匯款/ATM轉帳<br>
+    &nbsp;&nbsp;&nbsp;線上購刷卡<br>
+    貨到付款<br>
+  </p>
+  <p style="text-align: center;">
+    <font size="5"color="black">
+    Q.可以透過甚麼方法訂購商品？</font>
+  </p>
+    <p style="text-align: center;">
+      A.本店只開放網路訂購服務
+    </p>
+    <p style="text-align: center;"><font size="5"color="black">
+      Q.可寄送到哪一個國家/地區？</font>
+    </p>
+      <p style="text-align: center;">
+        A.送貨服務只適用於台灣區。
+      </p>
+      <p style="text-align: center;"><font size="5"color="black">
+        Q.是否可以退換貨？</font>
+      </h3>
+        <p style="text-align: center;">
+          A.所有訂單一經確認，將不能更改或取消。不設更換貨品或退貨。請於付款前確認訂單無誤。
+        </p>
+      </div>
+        <p style="padding-top: 150px;">
+      <footer id="footer">
+        <small>桃園市中壢區中北路200號<br>Tel：+886-3-265-9999<br>Fax：+886-3-265-8888</small>
+    </footer>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+<div id="page_top"><a href="Q&A.html"></a></div>
+</body>
+</html>
